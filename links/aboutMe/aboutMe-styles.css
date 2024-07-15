@@ -1,0 +1,43 @@
+body {
+    background-color: #235347;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px; 
+    height: 100vh;
+}
+
+
+.container {
+    max-width: 80%; 
+    padding: 20px; 
+    text-align: center;
+    color: white;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(INVASION2000.TTF);
+}
+
+h1 {
+    font-family: myFirstFont;
+}
+
+h3 {
+    font-family: "Lucida Console", 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+p {
+    font-family: "Lucida Console", 'Courier New', Courier, monospace;
+}
+
+.intro {
+    width: 90%;
+}
+
+.links img{
+    width: 36px;
+    height: 36px;
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Resources</title>
+    <link rel="stylesheet" href="learning-styles.css">
+</head>
+<body>
+    <div class="container-one">
+        <h1>Online Resources</h1>
+
+        <div class="resources-slideshow" id="web-development-slideshow">
+            <h2>Web Development</h2>
+
+            <!-- resource #1 : the odin project -->
+            <div class="resources fade">
+                <div class="resource-container">
+                    <div class="resource-img">
+                        <img src="logos/odin-small.png" alt="the odin project logo">
+                    </div>
+                    <div class="resource-text">
+                        <h3>The Odin Project</h3>
+                        <p>A free online open source coding curriculum. It emphasizes hands-on learning and project-based learning. It can help you become a full-stack developer. It is completely free and has established communities that assist current learners with their web development journey!</p>
+                        <ul>
+                            <li>Free resource</li>
+                            <li>Large online community - easier to get questions answered</li>
+                            <li>Curriculum is continuously developed and adjusted</li>
+                        </ul>
+                        <div class="resource-buttons">
+                            <button type="button" class="learn-btn"><a href="https://www.theodinproject.com/paths" target="_blank" rel="noopener noreferrer">view full curriculum</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- resource #2 : udemy -->
+            <div class="resources fade">
+                <div class="resource-container">
+                    <div class="resource-img">
+                        <img src="logos/udemy.jpg" alt="udemy logo">
+                    </div>
+                    <div class="resource-text">
+                        <h3>Udemy -- The Complete 2024 Web Development Bootcamp</h3>
+                        <p>A comprehensive web development course available online. It is one of Udemy’s highest rated courses. The course includes over 62 hours of video tutorials and builds your programming knowledge while making real-world websites and web apps. By the end of the project, you will build over 32+ websites to strengthen your portfolio.</p>
+                        <ul>
+                            <li>Project-based</li>
+                            <li>Video-based Lessons</li>
+                            <li>In-depth</li>
+                            <li>Paid resource</li>
+                        </ul>
+                        <div class="resource-buttons">
+                            <button type="button" class="learn-btn"><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/?couponCode=KEEPLEARNING" target="_blank" rel="noopener noreferrer">view curriculum description</a></button>
+                        </div>
+                    </div>      
+                </div>     
+            </div>
+
+            <!-- resource #3 : freeCodeCamp -->
+            <div class="resources fade">
+                <div class="resource-container">
+                    <div class="resource-img">
+                        <img src="logos/freecodecamp-logo.png" alt="free code camp logo">
+                    </div>
+                    <div class="resource-text">
+                        <h3>FreeCodeCamp</h3>
+                        <p>FreeCodecamp is a free learning platform and a proven path to your first software developer job. The curriculum is broken down into certifications. To earn a certification, you must build its 5 required projects and get all their tests to pass. </p>
+                        <ul>
+                            <li>Project-based</li>
+                            <li>Good for beginner - no coding experience</li>
+                            <li>Free resource</li>
+                            </ul>
+                        <div class="resource-buttons">
+                            <button type="button" class="learn-btn"><a href="https://www.freecodecamp.org/learn/" target="_blank" rel="noopener noreferrer">view curriculum</a></button>
+                        </div>
+                    </div>   
+                </div>        
+            </div>
+
+              <!-- next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1, 'web-development-slideshow')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 'web-development-slideshow')">&#10095;</a>
+
+        </div>
+        <br>
+        <!-- the dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1, 'web-development-slideshow')"></span>
+            <span class="dot" onclick="currentSlide(2, 'web-development-slideshow')"></span>
+            <span class="dot" onclick="currentSlide(3, 'web-development-slideshow')"></span>
+        </div>
+    </div>
+
+    <!-- second set of slideshow -->
+    <div class="container-two">
+
+        <div class="resources-slideshow" id="general-programming-slideshow">
+            <h2>General Programming</h2>
+
+            <!-- resource #1 : replit's 100 Days of Code -->
+            <div class="resources fade">
+                <div class="resource-container">
+                    <div class="resource-img">
+                        <img src="logos/replit-logo.png" alt="the replit logo">
+                    </div>
+                    <div class="resource-text">
+                        <h3>Replit - 100 Days of Code</h3>
+                        <p>Replit’s 100 Days of Code is perfect for beginners with absolutely no coding experience. It provides users with an online integrated development environment and engaging video lessons. It does not require much time as each lesson can only take up to 15 minutes. It can be a great tool for intermediate developers who are trying to refresh their Python knowledge.</p>
+                        <ul>
+                            <li>Online IDE</li>
+                            <li>Video-based or reading-based tutorials</li>
+                            <li>Quick tutorials - great for beginners</li>
+                            <li>Can't skip levels if you already have previous knowledge</li>
+                        </ul>
+                        <div class="resource-buttons">
+                            <button type="button" class="learn-btn"><a href="https://replit.com/learn/100-days-of-python?utm_medium=referral&utm_campaign=100_days_of_code_python" target="_blank" rel="noopener noreferrer">view full curriculum</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- resource #2 : neetcode -->
+            <div class="resources fade">
+                <div class="resource-container">
+                    <div class="resource-img">
+                        <img src="logos/neetCode.jpg" alt="neetCode logo">
+                    </div>
+                    <div class="resource-text">
+                        <h3>NeetCode</h3>
+                        <p>NeetCode is an online platform that students can use to prepare for coding interviews. It provides coding and algorithmic problems and has gained popularity among job seekers and coding enthusiasts as a resource for technical interviews and competitive programming. </p>
+                        <ul>
+                            <li>Video-based Lessons</li>
+                            <li>Courses are paid</li>
+                        </ul>
+                        <div class="resource-buttons">
+                            <button type="button" class="learn-btn"><a href="https://neetcode.io" target="_blank" rel="noopener noreferrer">view curriculum</a></button>
+                        </div>
+                    </div>      
+                </div>     
+            </div>
+
+            <!-- resource #3 : freeCodeCamp -->
+            <div class="resources fade">
+                <div class="resource-container">
+                    <div class="resource-img">
+                        <img src="logos/w3schools.jpeg" alt="w3schools logo">
+                    </div>
+                    <div class="resource-text">
+                        <h3>W3Schools</h3>
+                        <p>W3Schools covers a wide range of topics, including web development, SQL, object-oriented programming, etc. It can sometimes oversimplify concepts, so it is better to be treat it as a quick-reminder instead of a full-on tutorial.</p>
+                        <ul>
+                            <li>In-depth, trusted</li>
+                            <li>Free resource</li>
+                            </ul>
+                        <div class="resource-buttons">
+                            <button type="button" class="learn-btn"><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">view curriculum</a></button>
+                        </div>
+                    </div>   
+                </div>        
+            </div>
+
+              <!-- next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1, 'general-programming-slideshow')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 'general-programming-slideshow')">&#10095;</a>
+
+        </div>
+        <br>
+        <!-- the dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1, 'general-programming-slideshow')"></span>
+            <span class="dot" onclick="currentSlide(2, 'general-programming-slideshow')"></span>
+            <span class="dot" onclick="currentSlide(3, 'general-programming-slideshow')"></span>
+        </div>
+    </div>
+    
+    <script src="learning.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(INVASION2000.TTF);
+}
+
+body {
+    background-color: #235347;
+    color: white;
+    font-family:"Lucida Console", 'Courier New', Courier, monospace;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-family: myFirstFont;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-info {
+    margin-bottom: 20px;
+    border-radius: 7px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #758467; 
+    border: 4px solid white;
+}
+
+.project-text {
+    padding: 20px;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 1.5rem; /* larger font size for project titles */
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 1rem; /* smaller font size for description */
+    line-height: 1.6;
+}
+
+.project-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* new */
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.github-btn,
+.page-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #235347;
+    color: white;
+    cursor: pointer;
+    font-family: "Lucida Console", 'Courier New', Courier, monospace;
+}
+
+.github-btn:hover,
+.page-btn:hover {
+    background-color: #526963;
+}
+
+@media (max-width: 768px) {
+    .project-info {
+        flex-direction: column;
+    }
+
+    .project-title {
+        font-size: 1.3rem;
+    }
+
+    .desc {
+        font-size: 0.9rem;
+    }
+}
+
+
+#goodbrief:hover {
+    color: #235347;
+    font-weight: 600;
+}

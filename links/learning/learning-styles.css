@@ -1,0 +1,130 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(INVASION2000.TTF);
+}
+
+body {
+    /* background-color: #203732; */
+    background-color: #235347;
+    color: white;
+    font-family:"Lucida Console", 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family: myFirstFont;
+    text-align: center;
+}
+
+.resources-slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+ .active, .dot:hover {
+    background-color: #717171;
+}
+
+/* animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.resource-container {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #758467;
+    border-radius: 7px;
+    border: 4px solid white;
+}
+
+.resource-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.resource-img {
+    flex: 1;
+    background-color:#235347;
+    object-fit: contain;
+}
+
+.resource-text {
+    flex: 2;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.resource-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.learn-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4c6444;
+    color: white;
+    cursor: pointer;
+    font-family: "Lucida Console", 'Courier New', Courier, monospace;
+}
+
+.learn-btn:hover {
+    background-color: #526963;
+}
+
+.container {
+    padding-top: 20px; 
+    
+}
